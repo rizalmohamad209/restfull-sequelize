@@ -21,7 +21,8 @@
 //     "dialect": "mysql"
 //   }
 // }
-
+require("dotenv").config({ silent: "production" });
+const { DB_HOST_PRODUCTION, DB_USERNAME_PRODUCTION, DB_PASSWORD_PRODUCTION, DB_DATABASE_PRODUCTION } = process.env;
 module.exports = {
   development: {
     username: "root",
