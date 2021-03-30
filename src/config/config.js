@@ -32,8 +32,8 @@ module.exports = {
   },
   production: {
     username: DB_USERNAME_PRODUCTION,
-    password: DB_PASSORD_PRODUCTION,
-    database: DB_DATABSE_PRODUCTION,
+    password: DB_PASSWORD_PRODUCTION,
+    database: DB_DATABASE_PRODUCTION,
     host: DB_HOST_PRODUCTION,
     dialect: "postgres",
     protocol: "postgres",
